@@ -1,0 +1,91 @@
+h1 {
+    
+    color: white;background-color:black;font-family:verdana;font-size:200%
+}
+
+h4{
+  color:lightpink;
+font-family:cursive;
+    font-size:150%;
+    text-align:center;
+}  
+
+h2{
+    color:palevioletred; 
+    font-family:verdana; 
+    font-size:130%; 
+    text-align:left;
+}
+
+h3{
+    color:palevioletred; 
+    font-family:verdana;
+    font-size:150%;
+}
+
+
+body{
+    background-color:lightpink;
+    text-align:center;
+    font-size:130%;
+}
+
+del{
+    color: red;
+}
+
+img{
+    width="120";
+    height="150";
+}
+
+.header {
+  background-color: black;
+  padding: 1px;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  width: 20.51%;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: antiquewhite;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: hotpink;
+  color: black;
+}
+
+.column {
+  float: center;
+  width: 32%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.footer {
+  background-color: hotpink;
+  padding: 10px;
+  text-align: center;
+}
